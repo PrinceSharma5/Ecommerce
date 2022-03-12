@@ -1,0 +1,1 @@
+[{"name":"Apple iphone","price":"70000","quantity":"10","discription":"best"},{"name":"samsung","price":"50000","quantity":"12","discription":"good"},{"name":"Redmi","price":"45000","quantity":"8","discription":"average"},{"name":"realme","price":"25000","quantity":"9","discription":"good"},{"name":"oneplus","price":"20000","quantity":"5","discription":"good"}]
