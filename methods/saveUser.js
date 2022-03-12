@@ -9,8 +9,12 @@ const writeFile=require("../util/writeFile")
          }
          for(let i=0;i<users.length;i++){
              let user=users[i]
-             if(user.username===newUser.username /*|| user.email===newUser.email*/){
-                 callback("User already exists")
+             if(user.username===newUser.username){
+                 callback("Username already exists")
+                 return
+             }
+           if( user.email===newUser.email){
+                 callback("Email already exists")
                  return
              }
          }
